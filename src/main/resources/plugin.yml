@@ -1,0 +1,14 @@
+main: io.gohoon.waffle.Entry
+name: waffle
+version: 1.0.0
+author: hoon_kiwicraft
+description: Minecraft plugin. I don't know what to write here.
+api-version: 1.17 #reference minecraft version.
+commands:
+  waffle:
+    description: main command of this plugin
+    permission: waffle
+permissions:
+  waffle:
+    description: allows 'waffle' command
+    default: op
